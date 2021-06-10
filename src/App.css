@@ -1,5 +1,11 @@
+body {
+  background-color:  #0e44797c
+}
 .App {
   text-align: center;
+}
+h1{
+  color: crimson;
 }
 
 .App-logo {
