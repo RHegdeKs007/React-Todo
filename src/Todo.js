@@ -56,8 +56,11 @@ function Todo(props) {
                 </ListItemAvatar>
                 <ListItemText primary={props.todo.todo} secondary="complete it today😄"  />
             </ListItem>
-            <EditIcon onClick = {e => setOpen(true)}></EditIcon>
-            <DeleteForeverIcon onClick={event =>{db.collection('todos').doc(props.todo.id).delete()}} />
+            
+                <EditIcon onClick = {e => setOpen(true)}></EditIcon>
+                <DeleteForeverIcon onClick={event =>{db.collection('todos').doc(props.todo.id).delete()}} />
+            
+          
         </List>
       </>  
     )

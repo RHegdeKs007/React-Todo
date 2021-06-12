@@ -40,7 +40,7 @@ useEffect(() => {
               <Input value={input} onChange={event => setInput(event.target.value)}/>
            </FormControl>
            <Button disabled={!input} type="submit" onClick={addTodo} variant="contained" color="primary">
-           Add todo</Button>
+           Add Task</Button>
            
       </form>
      
